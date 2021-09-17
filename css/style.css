@@ -24,15 +24,15 @@ nav{
 }
 .titulo{
     font-style: normal;
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 1.5rem;
+    line-height: 30px;
     color: #f9f9f9;
 }
 a{
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 23px;
     color: #f9f9f9;
     
@@ -40,6 +40,10 @@ a{
 
 .sobre-mim{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44rem
+    
 }
 
 .titulo-sobre{
@@ -47,14 +51,15 @@ a{
 font-family: DM Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 32px;
-line-height: 42px;
+font-size: 2rem;
+line-height: 40px;
 color: #f9f9f9;
+padding-bottom: 25px;
+
 }
 
 .sobre-mim p{
-    color: #828282;
-   
+    color: #828282;   
 }
 
 .redes{
@@ -65,10 +70,8 @@ color: #f9f9f9;
 }
 
 .lista-redes{
-    padding-top: 20px;
     list-style: none;
     display: flex;
-      
 }
 
 .redes li{
@@ -78,8 +81,7 @@ color: #f9f9f9;
 .redes a{
     font-family: DM Sans;
     font-style: normal;
-    font-weight: bold;
-    font-size: 23px;
+    font-size: 1.2rem;
     line-height: 23px;
 }
 
