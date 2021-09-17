@@ -4,7 +4,7 @@
     font-family: DM sans;
 }
 body{
-    background-color: black;
+    background-color: #171717;
 }
 nav{
     margin-top: 30px;
@@ -20,12 +20,10 @@ nav{
 }
 
 .nav-lista li{
-    letter-spacing: 1px;
     margin-left: 30px;
 }
 .titulo{
     font-style: normal;
-    font-weight: bold;
     font-size: 26px;
     line-height: 34px;
     color: #f9f9f9;
@@ -37,4 +35,82 @@ a{
     font-size: 18px;
     line-height: 23px;
     color: #f9f9f9;
+    
 }
+
+.sobre-mim{
+    text-align: center;
+}
+
+.titulo-sobre{
+  
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 42px;
+color: #f9f9f9;
+}
+
+.sobre-mim p{
+    color: #828282;
+   
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vg;
+}
+
+.lista-redes{
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+      
+}
+
+.redes li{
+    padding: 90px;
+}
+
+.redes a{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 23px;
+}
+
+
+
+/*.intro-conteudo p:nth-child(1){
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 47px;
+    color: #f9f9f9;
+   
+}
+
+.intro-conteudo p:nth-child(2){
+    font-family: DM Sans;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #828282;
+   
+}
+
+
+img{
+    border-style: groove;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 600px;
+    border-color: #00DF5E;
+    
+}*/
