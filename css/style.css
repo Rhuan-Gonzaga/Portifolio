@@ -4,7 +4,7 @@
     font-family: DM sans;
 }
 body{
-    background-color: #171717;
+    background-color: #1a1a1a;
 }
 nav{
     margin-top: 30px;
@@ -38,7 +38,7 @@ a{
     
 }
 
-.sobre-mim{
+.sobre-mim,.titulo-projetos{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -46,20 +46,25 @@ a{
     
 }
 
-.titulo-sobre{
+h1{
   
 font-family: DM Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 2rem;
+font-size: 1.3rem;
 line-height: 40px;
 color: #f9f9f9;
 padding-bottom: 25px;
 
 }
 
+ p{
+    color: #828282; 
+    font-size: 12px;  
+}
+
 .sobre-mim p{
-    color: #828282;   
+    font-size: 20px;
 }
 
 .redes{
@@ -116,3 +121,38 @@ img{
     border-color: #00DF5E;
     
 }*/
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-titulo{
+    font-family: DM Sans;
+    font-size: 0.8rem;
+    line-height: 40px;
+    color: #f9f9f9;
+
+}
+.row{
+
+    display: grid;
+    grid-template: 200px  200px / auto auto auto;
+    justify-items: center;
+    gap: 10px 5px;
+    padding: 10px;
+    
+}
+
+.card{
+    background: #212121;
+    border: 3px solid #00DF5E;
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    
+    
+}
+
