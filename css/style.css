@@ -6,12 +6,15 @@
 body{
     background-color: #1a1a1a;
 }
+
+/*HEADER*/
 nav{
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 10vg;
+    padding-bottom: 30px;
 }
 
 .nav-lista{
@@ -37,6 +40,68 @@ a{
     color: #f9f9f9;
     
 }
+
+
+/*Imagem e donwload do CV*/
+.intro-conteudo p:nth-child(1){
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 47px;
+    color: #f9f9f9;
+   
+}
+
+.intro-conteudo p:nth-child(2){
+    font-family: DM Sans;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #828282;
+   
+}
+
+.intro-conteudo{
+   text-align: center;
+}
+
+.intro-conteudo h1{
+    font-size: 2rem;
+}
+
+
+.img-conteudo{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#imgSobre{
+    width: 250px;
+    height: 350px;
+    border-bottom: 3px solid #00DF5E;
+    box-sizing: border-box;
+    border-radius: 15%;
+
+}
+
+button{
+    border: 0;
+    padding: 10px;
+    width: 143px;
+    height: 42px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #00DF5E;
+    font-size: 1rem;
+    color: #171717;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* SOBRE MIM*/
 
 .sobre-mim,.titulo-projetos{
     text-align: center;
@@ -67,6 +132,8 @@ padding-bottom: 25px;
     font-size: 20px;
 }
 
+
+/* LINKS PARA REDES*/
 .redes{
     display: flex;
     justify-content: space-around;
@@ -92,38 +159,12 @@ padding-bottom: 25px;
     
 }
 
-
-
-/*.intro-conteudo p:nth-child(1){
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 47px;
-    color: #f9f9f9;
-   
-}
-
-.intro-conteudo p:nth-child(2){
-    font-family: DM Sans;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 23px;
-    color: #828282;
-   
+.titulo-sobre{
+    padding-top: 50px;
 }
 
 
-img{
-    border-style: groove;
-    width: 20%;
-    height: auto;
-    border-radius: 50%;
-    margin-left: 600px;
-    border-color: #00DF5E;
-    
-}*/
-
+/*Card projetos*/
 .projetos{
     display: flex;
     justify-content: center;
@@ -132,7 +173,7 @@ img{
 
 .card-titulo{
     font-family: DM Sans;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 40px;
     color: #f9f9f9;
 
@@ -161,10 +202,12 @@ img{
     border-bottom: 3px solid #00DF5E;
     box-sizing: border-box;
     width: 300px;
-    height: 150px;
+    height: 130px;
     padding: 10px;
     
 }
+
+/* MINHAS HABILIDADES*/
 
 .titulo-skill{
     display: flex;
@@ -199,6 +242,8 @@ img{
     border-color: #212121;  
 
 }
+
+/* RODAPÉ*/
 
 footer pre{
     display: flex;
