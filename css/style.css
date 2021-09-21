@@ -41,6 +41,16 @@ a{
     
 }
 
+#nav-active:hover 
+
+{color: #00DF5E; 
+
+transition: 0.3s;
+
+opacity: 0.8;
+
+}
+
 
 /*Imagem e donwload do CV*/
 .intro-conteudo p:nth-child(1){
@@ -101,9 +111,15 @@ button{
     font-weight: bold;
 }
 
+#bt-active:hover{
+    background-color: #00df5d8c;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
 /* SOBRE MIM*/
 
-.sobre-mim,.titulo-projetos{
+.sobre-mim{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -163,8 +179,31 @@ padding-bottom: 25px;
     padding-top: 50px;
 }
 
+.lista-redes img{
+    width: 35px;
+    height: 35px;
+    background-color: #00DF5E;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#redes-active:hover{
+    background-color: #00df5d8c;
+    transition: 0.3s;
+    opacity: 0.8;
+}
 
 /*Card projetos*/
+
+.titulo-projetos{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44rem
+    
+}
+
 .projetos{
     display: flex;
     justify-content: center;
@@ -188,23 +227,21 @@ padding-bottom: 25px;
     
 }
 
-.lista-redes img{
-    width: 35px;
-    height: 35px;
-    background-color: #00DF5E;
-    padding: 20px;
-    border-radius: 20px;
-
-}
 
 #card{
-    background: #212121;
-    border-bottom: 3px solid #00DF5E;
+    background: #302f2f;
     box-sizing: border-box;
+    border-bottom: 3px solid #00DF5E;
     width: 300px;
     height: 130px;
     padding: 10px;
     
+}
+
+#card:hover{
+    background: #212121;
+    transition: 0.2s;
+    opacity: 0.8;
 }
 
 /* MINHAS HABILIDADES*/
