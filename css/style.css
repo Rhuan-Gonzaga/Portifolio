@@ -113,9 +113,13 @@ button{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 44rem;
+    width: 55rem;
     font-size: 1.3rem;
     color: #828282; 
+}
+
+#sobre strong{
+    color:#828282;
 }
 
 /* LINKS PARA REDES*/
@@ -272,3 +276,538 @@ footer pre{
 strong{
     color:#00DF5E;
 }
+
+/* RESPONSIVIDADE 1920*/
+
+@media (width: 1920px){
+    .intro-conteudo{
+        padding-left: 350px;
+    }
+
+    .intro-conteudo h1{
+        font-size: 3rem;
+    }
+    
+    .img-conteudo{
+        margin-right: 405px;
+    }
+
+    button{
+        width: 152px;
+        height: 50px;
+    }
+    
+}
+
+/* RESPONSIIDADE MOBILE  320px*/
+
+@media only screen and (width:320px){
+    
+/*HEADER*/
+header{
+    display: none;
+}
+
+.img-conteudo{
+    display: none;
+}
+
+.intro-conteudo h1{
+    width: 500px;
+    font-size: 3rem;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 170px;
+}
+
+button{
+    width: 140px;
+    height: 60px;
+    font-size: 1.2rem;
+}
+
+/* SOBRE MIM*/
+#sobre{
+    text-align: center;
+   margin-left: 20px;
+    width: 41rem;
+    font-size: 1.3rem;
+    color: #828282; 
+}
+
+/* LINKS PARA REDES*/
+.lista-redes{
+    list-style: none;
+    margin-left: 390px;
+   
+}
+
+.redes li{
+    padding: 30px;
+}
+
+/*Card projetos*/
+#card{
+    width: 220px;
+}
+
+/* MINHAS HABILIDADES*/
+
+#titulo-skill{
+
+text-align: center;
+margin-left: 260px;    
+width: 200px;
+}
+
+.lista-skill {
+    margin-left: 395px;
+}
+
+.skill li{
+    padding: 30px;
+}
+
+/*RODAPÉ*/
+
+footer pre{
+    margin-right: 20px;
+    width: 694px;
+}
+
+strong{
+    color:#00DF5E;
+}
+
+}
+
+/* RESPONSIVIDADE MOBILE 360px*/
+@media only screen and (width:360px){
+    
+/*HEADER*/
+header{
+    display: none;
+}
+    
+.img-conteudo{
+    display: none;
+}
+    
+.intro-conteudo h1{
+    width: 500px;
+    font-size: 3rem;
+}
+    
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 130px;
+}
+    
+button{
+    width: 140px;
+    height: 60px;
+    font-size: 1.2rem;
+}
+    
+ /* SOBRE MIM*/
+#sobre{
+    text-align: center;
+    margin-left: 20px;
+    width: 41rem;
+    font-size: 1.3rem;
+    color: #828282; 
+}
+    
+/* LINKS PARA REDES*/
+.lista-redes{
+    list-style: none;
+    margin-left: 345px;
+   
+}
+    
+.redes li{
+    padding: 30px;
+}
+    
+/*Card projetos*/
+#card{
+    width: 220px;
+}
+    
+/* MINHAS HABILIDADES*/
+    
+#titulo-skill{
+text-align: center;
+margin-left: 260px;    
+width: 200px;
+}
+    
+.lista-skill {
+     margin-left: 355px;
+}
+    
+.skill li{
+    padding: 30px;
+}
+    
+/*RODAPÉ*/
+    
+footer pre{
+    margin-right: 20px;
+     width: 694px;
+}
+    
+strong{
+    color:#00DF5E;
+}
+    
+}
+
+
+
+
+/* RESPONSIVIDADE MOBILE 411px*/
+@media only screen and (width:411px){
+    
+    /*HEADER*/
+    header{
+        display: none;
+    }
+        
+    .img-conteudo{
+        display: none;
+    }
+        
+    .intro-conteudo h1{
+        width: 500px;
+        font-size: 3rem;
+    }
+        
+    .conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 80px;
+    }
+        
+    button{
+        width: 140px;
+        height: 60px;
+        font-size: 1.2rem;
+    }
+        
+     /* SOBRE MIM*/
+    #sobre{
+        text-align: center;
+        margin-left: 20px;
+        width: 41rem;
+        font-size: 1.3rem;
+        color: #828282; 
+    }
+        
+    /* LINKS PARA REDES*/
+    .lista-redes{
+        list-style: none;
+        margin-left: 300px;
+       
+    }
+        
+    .redes li{
+        padding: 30px;
+    }
+        
+    /*Card projetos*/
+    #card{
+        width: 220px;
+    }
+        
+    /* MINHAS HABILIDADES*/
+        
+    #titulo-skill{
+    text-align: center;
+    margin-left: 265px;    
+    width: 200px;
+    }
+        
+    .lista-skill {
+         margin-left: 310px;
+    }
+        
+    .skill li{
+        padding: 30px;
+    }
+        
+    /*RODAPÉ*/
+        
+    footer pre{
+        margin-right: 20px;
+         width: 694px;
+    }
+        
+    strong{
+        color:#00DF5E;
+    }
+        
+    }
+
+
+/* RESPONSIVIDADE MOBILE 375px*/
+@media only screen and (width:375px){
+    
+    /*HEADER*/
+    header{
+        display: none;
+    }
+        
+    .img-conteudo{
+        display: none;
+    }
+        
+    .intro-conteudo h1{
+        width: 500px;
+        font-size: 3rem;
+    }
+        
+    .conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 120px;
+    }
+        
+    button{
+        width: 140px;
+        height: 60px;
+        font-size: 1.2rem;
+    }
+        
+     /* SOBRE MIM*/
+    #sobre{
+        text-align: center;
+        margin-left: 20px;
+        width: 41rem;
+        font-size: 1.3rem;
+        color: #828282; 
+    }
+        
+    /* LINKS PARA REDES*/
+    .lista-redes{
+        list-style: none;
+        margin-left: 340px;
+       
+    }
+        
+    .redes li{
+        padding: 30px;
+    }
+        
+    /*Card projetos*/
+    #card{
+        width: 220px;
+    }
+        
+    /* MINHAS HABILIDADES*/
+        
+    #titulo-skill{
+    text-align: center;
+    margin-left: 260px;    
+    width: 200px;
+    }
+        
+    .lista-skill {
+         margin-left: 340px;
+    }
+        
+    .skill li{
+        padding: 30px;
+    }
+        
+    /*RODAPÉ*/
+        
+    footer pre{
+        margin-right: 20px;
+         width: 694px;
+    }
+        
+    strong{
+        color:#00DF5E;
+    }
+        
+    }
+    
+
+/* RESPONSIVIDADE MOBILE 414px*/
+@media only screen and (width:414px){
+    
+    /*HEADER*/
+    header{
+        display: none;
+    }
+        
+    .img-conteudo{
+        display: none;
+    }
+        
+    .intro-conteudo h1{
+        width: 500px;
+        font-size: 3rem;
+    }
+        
+    .conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 80px;
+    }
+        
+    button{
+        width: 140px;
+        height: 60px;
+        font-size: 1.2rem;
+    }
+        
+     /* SOBRE MIM*/
+    #sobre{
+        text-align: center;
+        margin-left: 20px;
+        width: 41rem;
+        font-size: 1.3rem;
+        color: #828282; 
+    }
+        
+    /* LINKS PARA REDES*/
+    .lista-redes{
+        list-style: none;
+        margin-left: 295px;
+       
+    }
+        
+    .redes li{
+        padding: 30px;
+    }
+        
+    /*Card projetos*/
+    #card{
+        width: 220px;
+    }
+        
+    /* MINHAS HABILIDADES*/
+        
+    #titulo-skill{
+    text-align: center;
+    margin-left: 265px;    
+    width: 200px;
+    }
+        
+    .lista-skill {
+         margin-left: 305px;
+    }
+        
+    .skill li{
+        padding: 30px;
+    }
+        
+    /*RODAPÉ*/
+        
+    footer pre{
+        margin-right: 20px;
+         width: 694px;
+    }
+        
+    strong{
+        color:#00DF5E;
+    }
+        
+    }
+
+/* RESPONSIVIDADE MOBILE 375 X 812*/
+@media only screen and (width:375px) and (height:812px){
+    
+    /*HEADER*/
+    header{
+        display: none;
+    }
+    .img-conteudo{
+        display: none;
+    }
+        
+    .intro-conteudo h1{
+        width: 500px;
+        font-size: 3rem;
+    }
+        
+    .conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 120px;
+    }
+        
+    button{
+        width: 140px;
+        height: 60px;
+        font-size: 1.2rem;
+    }
+        
+     /* SOBRE MIM*/
+    #sobre{
+        text-align: center;
+        margin-left: 20px;
+        width: 41rem;
+        font-size: 1.3rem;
+        color: #828282; 
+    }
+        
+    /* LINKS PARA REDES*/
+    .lista-redes{
+        list-style: none;
+        margin-left: 340px;
+       
+    }
+        
+    .redes li{
+        padding: 30px;
+    }
+        
+    /*Card projetos*/
+    #card{
+        width: 220px;
+    }
+        
+    /* MINHAS HABILIDADES*/
+        
+    #titulo-skill{
+    text-align: center;
+    margin-left: 260px;    
+    width: 200px;
+    }
+        
+    .lista-skill {
+         margin-left: 340px;
+    }
+        
+    .skill li{
+        padding: 30px;
+    }
+        
+    /*RODAPÉ*/
+        
+    footer pre{
+        display: none;
+    }
+        
+    }
+    
+    
