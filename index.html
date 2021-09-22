@@ -13,85 +13,99 @@
 </head>
 <body>
     
+    <!--Barra de navegação-->
     <header>
+
         <nav>
             <h1 class="titulo">Portifólio</h1>
             <ul class="nav-lista">
                 <li><a id="nav-active" href="#sobre">Sobre mim</a></li>
-                <li><a id="nav-active" href="#projetos">Projetos</a></li>
+                <li><a id="nav-active" href="#titulo-projetos">Projetos</a></li>
                 <li><a id="nav-active" href="#skill">Minhas skills</a></li>         
             </ul>
-
         </nav>
+
     </header>    
 
     <main>
 
-        <section >
+         <!--Botão de donwload CV e imagem-->
+        <section>
 
-            <div class="img-conteudo">
-                <img id="imgSobre" alt="rhuan gonzaga" src="img/euu.png">
-           </div>
+            <div class="conteudo">
+                <div class="intro-conteudo">
+                    <h1>Olá, eu sou o<br>Rhuan Gonzaga :)</h1>
+                    <a href="" download>
+                        <button id="bt-active">Download CV</button>
+                    </a>
+                </div>
 
-           <div class="intro-conteudo">
-                <h1>Olá, eu sou o<br>Rhuan Gonzaga :)</h1>
-                <a href="" download>
-                    <button id="bt-active">Download CV</button>
-                </a>
-           </div>
+                <div class="img-conteudo">
+                    <img id="imgSobre" alt="rhuan gonzaga" src="img/euu.png">
+                </div>
+            </div>
 
         </section>
 
+         <!--Sobre mim-->
         <section>
-            <div id="sobre" class="sobre-mim">
+
+            <div id="sobre">
                 <h1 class="titulo-sobre">Sobre mim</h1>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
+
         </section>
 
+         <!--Links para as redes-->
         <section>
+
             <div class="redes">
-                    <ul class="lista-redes">
+                <ul class="lista-redes">
                     <li><a href="https://github.com/Rhuan-Gonzaga" target="_blank"><img id="redes-active" src="img/github.svg" alt="github"></a></li>
                     <li><a href="https://www.linkedin.com/in/rhuan-gonzaga-0127381a4/" target="_blank"><img id="redes-active" src="img/linkedin.svg" alt="email"></a></li>
                     <li><a href="mailto: rhuuancontato@gmail.com" target="_blank"><img id="redes-active" src="img/google-email.svg" alt="gmail"></a></li>      
                 </ul>
             </div>
+
         </section>
 
+         <!--Meus projetos-->
         <section>
-            <h1 id="projetos" class="titulo-projetos">Projetos</h1>
+
+            <h1 id="titulo-projetos">Projetos</h1>
+
             <div class="row">
                 <a href="https://jogodamemoria-copa.netlify.app/" target="_blank">
                     <div id="card">
-                        <img class="image" src="#">
                         <h2 class="card-titulo">Jogo da Memória</h2>
+                        <img class="image" src="img/foreign.png">
                         <p>Tecnologias: HTML, CSS E JS</p>
                     </div>
                 </a>
 
                <a href="https://calculadora-raiz.netlify.app/" target="_blank">
                    <div id="card">
-                        <img class="image" src="#">
                         <h2 class="card-titulo">Calculadora</h2>
+                        <img class="image" src="img/foreign.png">
                         <p>Tecnologias: HTML, CSS E JS</p>
                     </div>
                 </a>
 
                 <a href="https://jogo-da-velhinha.netlify.app/" target="_blank">
                     <div id="card">
-                        <img class="image" src="#">
                         <h2 class="card-titulo">Jogo da Velha</h2>
+                        <img class="image" src="img/foreign.png">
                         <p>Tecnologias: HTML, CSS E JS</p>
                     </div>
                 </a>
 
                 <a href="https://calculadoraa-imc.netlify.app/" target="_blank">
                     <div id="card">  
-                        <img class="image" src="#">
                         <h2 class="card-titulo">Calculadora IMC</h2>
+                        <img class="image" src="img/foreign.png">
                         <p>Tecnologias: HTML, CSS E JS</p>
                     </div>
                 </a>
@@ -107,30 +121,32 @@
                         <h2 class="card-titulo">Em breve ....</h2>
                     </div>
                 </a>
-
             </div>
+
         </section>
 
+         <!--Minhas principais habilidades-->
         <section>
 
-            <h1 id="skill" class="titulo-skill">Minhas Skills</h1></a>
+            <h1 id="titulo-skill">Minhas Skills</h1></a>
             <div class="skill">
                 <ul class="lista-skill">
                     <li><img src="img/html.png"></li>
                     <li><img src="img/css.png"></li>
                     <li><img src="img/js.png"></li>
-                    <li><img src="img/react.png"></li>
                 </ul>
             </div>
+
         </section>
+
     </main>
 
+     <!--Meu rodapé-->
     <footer>
         <pre>
             Criado por <strong>Rhuan Gonzaga!</strong>
         </pre>
     </footer>
-
 
 </body>
 </html>

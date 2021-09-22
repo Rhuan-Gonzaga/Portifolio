@@ -7,6 +7,27 @@ body{
     background-color: #1a1a1a;
 }
 
+a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 23px;
+    color: #f9f9f9;
+}
+
+h1{
+  
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: #f9f9f9;
+    padding-bottom: 25px;
+}
+
+
 /*HEADER*/
 nav{
     margin-top: 30px;
@@ -27,79 +48,48 @@ nav{
 }
 .titulo{
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 30px;
     color: #f9f9f9;
 }
-a{
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2rem;
-    line-height: 23px;
-    color: #f9f9f9;
-    
-}
 
-#nav-active:hover 
-
-{color: #00DF5E; 
-
-transition: 0.3s;
-
-opacity: 0.8;
-
+#nav-active:hover {
+    color: #00DF5E; 
+    transition: 0.3s;
+    opacity: 0.8;
 }
 
 
 /*Imagem e donwload do CV*/
-.intro-conteudo p:nth-child(1){
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 47px;
-    color: #f9f9f9;
-   
-}
-
-.intro-conteudo p:nth-child(2){
-    font-family: DM Sans;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 23px;
-    color: #828282;
-   
-}
-
 .intro-conteudo{
-   text-align: center;
+  padding-left: 210px;
 }
 
 .intro-conteudo h1{
-    font-size: 2rem;
+    font-size: 2.8rem;
 }
 
-
 .img-conteudo{
-    text-align: center;
-    padding-bottom: 10px;
+    margin-right: 260px;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-between;
 }
 
 #imgSobre{
-    width: 250px;
-    height: 350px;
-    border-bottom: 3px solid #00DF5E;
-    box-sizing: border-box;
-    border-radius: 15%;
-
+    width: 210px;
+    height: 290px;
+    border: 5px solid #00DF5E;
+    box-sizing: solid;
+    border-radius: 50%;
 }
 
 button{
     border: 0;
     padding: 10px;
-    width: 143px;
-    height: 42px;
+    width: 148px;
+    height: 47px;
     margin: 10px;
     cursor: pointer;
     border-radius: 4px;
@@ -119,35 +109,14 @@ button{
 
 /* SOBRE MIM*/
 
-.sobre-mim{
+#sobre{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 44rem
-    
-}
-
-h1{
-  
-font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 1.3rem;
-line-height: 40px;
-color: #f9f9f9;
-padding-bottom: 25px;
-
-}
-
- p{
+    width: 44rem;
+    font-size: 1.3rem;
     color: #828282; 
-    font-size: 12px;  
 }
-
-.sobre-mim p{
-    font-size: 20px;
-}
-
 
 /* LINKS PARA REDES*/
 .redes{
@@ -196,7 +165,7 @@ padding-bottom: 25px;
 
 /*Card projetos*/
 
-.titulo-projetos{
+#titulo-projetos{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -227,13 +196,17 @@ padding-bottom: 25px;
     
 }
 
+.row p {
+    color: #828282; 
+    font-size: 0.8rem;  
+}
 
 #card{
     background: #302f2f;
     box-sizing: border-box;
     border-bottom: 3px solid #00DF5E;
-    width: 300px;
-    height: 130px;
+    width: 200px;
+    height: 110px;
     padding: 10px;
     
 }
@@ -244,9 +217,13 @@ padding-bottom: 25px;
     opacity: 0.8;
 }
 
+.image{
+    width: 20px;
+    height: 20px;
+}
 /* MINHAS HABILIDADES*/
 
-.titulo-skill{
+#titulo-skill{
     display: flex;
     align-items: center;
     justify-content: center;
