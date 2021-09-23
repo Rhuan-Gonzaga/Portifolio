@@ -16,7 +16,7 @@
     <header>
 
         <nav>
-            <h1 class="titulo">Portifólio</h1>
+            <h1 id="titulo">Portifólio</h1>
             <ul class="nav-lista">
                 <li><a id="nav-active" href="#sobre">Sobre mim</a></li>
                 <li><a id="nav-active" href="#titulo-projetos">Projetos</a></li>
@@ -28,13 +28,13 @@
 
     <main>
 
-         <!--Botão de donwload CV e imagem-->
+        <!--Botão de donwload CV e imagem-->
         <section>
 
             <div class="conteudo">
                 <div class="intro-conteudo">
                     <h1>Olá, eu sou o<br>Rhuan Gonzaga :)</h1>
-                    <a href="files/rhuan-curriculo.pdf" download>
+                    <a href="files/rhuan-curriculo.pdf" target="_blank">
                         <button id="bt-active">Download CV</button>
                     </a>
                 </div>
@@ -72,59 +72,64 @@
         </section>
 
          <!--Meus projetos-->
-        <section>
-
+        <section class="projetos">        
             <h1 id="titulo-projetos">Projetos</h1>
-
-            <div class="row">
-                <a href="https://jogodamemoria-copa.netlify.app/" target="_blank">
-                    <div id="card">
-                        <h2 class="card-titulo">Jogo da Memória</h2>
-                        <img class="image" src="img/foreign.png">
-                        <p>Tecnologias: HTML, CSS E JS</p>
+            <div class="projectBoxes"> 
+                        <div class="projectBox">
+                            <a href="https://jogodamemoria-copa.netlify.app/" target="_blank">
+                                <div class="projeto">
+                                    <h3>Jogo da Memória</h3>
+                                    <div class="containerBox"><img src="img/foreign.png" alt=""></div>
+                                    <p>Tecnologias: HTML CSS JS</p>
+                                </div>
+                            </a>
+                        </div>
+                    
+                <div class="projectBox">
+                    <div class="projeto">
+                        <a href="https://calculadora-raiz.netlify.app/" target="_blank">
+                            <h3>Calculadora</h3>
+                            <div class="containerBox"><img src="img/foreign.png" alt=""></div>
+                            <p>Tecnologias: HTML CSS JS</p>
+                        </a>
                     </div>
-                </a>
+                </div>
 
-               <a href="https://calculadora-raiz.netlify.app/" target="_blank">
-                   <div id="card">
-                        <h2 class="card-titulo">Calculadora</h2>
-                        <img class="image" src="img/foreign.png">
-                        <p>Tecnologias: HTML, CSS E JS</p>
+                <div class="projectBox">
+                    <div class="projeto">
+                        <a href="https://jogo-da-velhinha.netlify.app/" target="_blank">
+                            <h3>Jogo da Velha</h3>
+                            <div class="containerBox"><img src="img/foreign.png" alt=""></div>
+                            <p>Tecnologias: HTML CSS JS</p>
+                        </a>
                     </div>
-                </a>
+                </div>
 
-                <a href="https://jogo-da-velhinha.netlify.app/" target="_blank">
-                    <div id="card">
-                        <h2 class="card-titulo">Jogo da Velha</h2>
-                        <img class="image" src="img/foreign.png">
-                        <p>Tecnologias: HTML, CSS E JS</p>
+                <div class="projectBox">
+                    <div class="projeto">
+                        <a href="https://calculadoraa-imc.netlify.app/" target="_blank">
+                            <h3>Calculadora IMC</h3>
+                            <div class="containerBox"><img src="img/foreign.png" alt=""></div>
+                            <p>Tecnologias: HTML CSS JS</p>
+                        </a>
                     </div>
-                </a>
+                </div>
 
-                <a href="https://calculadoraa-imc.netlify.app/" target="_blank">
-                    <div id="card">  
-                        <h2 class="card-titulo">Calculadora IMC</h2>
-                        <img class="image" src="img/foreign.png">
-                        <p>Tecnologias: HTML, CSS E JS</p>
+                <div class="projectBox">
+                    <div class="projeto">
+                        <h3>Em breve ...</h3>
                     </div>
-                </a>
+                </div>
 
-                <a>
-                    <div id="card">
-                        <h2 class="card-titulo">Em breve ....</h2>
+                <div class="projectBox">
+                    <div class="projeto">
+                        <h3>Em breve ...</h3>
                     </div>
-                </a>
-
-                <a>
-                    <div id="card">
-                        <h2 class="card-titulo">Em breve ....</h2>
-                    </div>
-                </a>
-            
+                </div>
             </div>
-    
-        </section>
 
+        </section>
+    
          <!--Minhas principais habilidades-->
         <section>
 
@@ -140,6 +145,9 @@
         </section>
 
     </main>
+
+    <!--Voltar para o incio da pagina-->
+    <a class="voltar" href="#titulo">Inicio</a>
 
      <!--Meu rodapé-->
     <footer>
