@@ -353,6 +353,7 @@ header{
 .intro-conteudo h1{
     width: 500px;
     font-size: 3rem;
+    margin-left: 50px;
 }
 
 .conteudo{
@@ -360,13 +361,14 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-left: 100px;
+    
 }
 
 button{
     width: 140px;
     height: 60px;
     font-size: 1.2rem;
+    margin-left: 50px;
 }
 
 /* SOBRE MIM*/
@@ -378,15 +380,18 @@ button{
     color: #828282; 
 }
 
+.skill{
+    margin-left:33px;
+}
+
 /* LINKS PARA REDES*/
 .lista-redes{
     list-style: none;
-    margin-left: 500px;
-   
 }
 
 .redes li{
     padding: 30px;
+    margin-left: 45px;
 }
 
 /*Card projetos*/
@@ -403,13 +408,6 @@ margin-left: 260px;
 width: 200px;
 }
 
-.lista-skill {
-    margin-left: 400px;
-}
-
-.skill li{
-    padding: 30px;
-}
 
 /*RODAPÉ*/
 
@@ -423,7 +421,6 @@ strong{
 }
 
 }
-
 /* RESPONSIVIDADE MOBILE 360px*/
 @media only screen and (max-width:360px){
     
