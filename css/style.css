@@ -810,8 +810,8 @@ strong{
         
     }
 
-    /* RESPONSIVIDADE MOBILE 730px*/
-@media only screen and (width:730px){
+    /* RESPONSIVIDADE MOBILE 720px a 740*/
+@media only screen and (min-width:720px) and (max-width:740px){
     
     
     header{
@@ -884,75 +884,6 @@ strong{
         
     }
 
-     /* RESPONSIVIDADE MOBILE 2400px*/
-@media only screen and (width:2400px){
-    
-    
-    header{
-        display: none;
-    }
-        
-    .img-conteudo{
-        display: none;
-    }
-        
-    .intro-conteudo h1{
-        width: 500px;
-        font-size: 3.5rem;
-    }
-        
-    .conteudo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-right: 240px;
-    }
-        
-    button{
-        width: 145px;
-        height: 65px;
-        font-size: 1.2rem;
-    }
-        
-     /* SOBRE MIM*/
-    #sobre{
-        margin-left: 865px;
-        width: 41rem;
-        font-size: 1.3rem;
-        color: #828282; 
-    }
-        
-    /* LINKS PARA REDES*/
-    .lista-redes{
-        list-style: none;
-       
-    }
-        
-    .redes li{
-        padding: 30px;
-    }
-        
-    /*Card projetos*/
-    #card{
-        width: 220px;
-    }
-        
-    /* MINHAS HABILIDADES*/
-        
-    #titulo-skill{
-    text-align: center;
-    margin-left: 1105px;    
-    width: 200px;
-    }
-        
-    .skill li{
-        padding: 30px;
-    }
-        
-        
-    }
-    
-    
+   
     
     
