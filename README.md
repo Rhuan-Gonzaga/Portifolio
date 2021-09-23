@@ -1,4 +1,4 @@
-## Portifolio 💻:	
+## Portifolio 💻
 <img src="https://github.com/Rhuan-Gonzaga/Portifolio/blob/main/img/meu-portifolio.png" width="990px" align="center">
 
 Link da página do projeto: https://rhuan-portfolio.netlify.app/
