@@ -944,7 +944,12 @@ strong{
         display: none;
     }
     
-    
+    .projetos .projectBoxes {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 750px;
+        margin: 0 auto;
+    }
         
     .img-conteudo{
         display: none;
