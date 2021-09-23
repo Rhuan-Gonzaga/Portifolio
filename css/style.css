@@ -3,6 +3,10 @@
     margin: 0;
     font-family: DM sans;
 }
+
+html { 
+    scroll-behavior: smooth; 
+}
 body{
     background-color: #1a1a1a;
 }
